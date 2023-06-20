@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HotChocolate.Subscriptions" Version="12.5.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.7" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.2" />
+      <PackageReference Include="Moq" Version="4.18.4" />
+      <PackageReference Include="xunit" Version="2.4.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FleetGraphAPI.Database\FleetGraphAPI.Database.csproj" />
+      <ProjectReference Include="..\FleetGraphAPI\FleetGraphAPI.csproj" />
+    </ItemGroup>
+
+</Project>

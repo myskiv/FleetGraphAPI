@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetGraphAPI", "FleetGraphAPI.csproj", "{7B9CA2EA-DF6C-4BE7-A90F-2A77579B45C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetGraphAPI.Database", "..\FleetGraphAPI.Database\FleetGraphAPI.Database.csproj", "{68CC28D6-4336-4858-86DD-8F5743D5205F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetGraphAPI.Test", "..\FleetGraphAPI.Test\FleetGraphAPI.Test.csproj", "{BD36F5A1-9348-4511-B08F-408713C39E17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{7B9CA2EA-DF6C-4BE7-A90F-2A77579B45C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9CA2EA-DF6C-4BE7-A90F-2A77579B45C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9CA2EA-DF6C-4BE7-A90F-2A77579B45C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CC28D6-4336-4858-86DD-8F5743D5205F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CC28D6-4336-4858-86DD-8F5743D5205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CC28D6-4336-4858-86DD-8F5743D5205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CC28D6-4336-4858-86DD-8F5743D5205F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD36F5A1-9348-4511-B08F-408713C39E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD36F5A1-9348-4511-B08F-408713C39E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD36F5A1-9348-4511-B08F-408713C39E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD36F5A1-9348-4511-B08F-408713C39E17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
